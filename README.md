@@ -61,7 +61,7 @@ Create a `.env` file:
 ```env
 BOT_TOKEN=123456:ABC-your-telegram-bot-token
 OPENAI_API_KEY=sk-your-openai-key
-MODEL=gpt-4o-mini
+MODEL=gpt-5-mini
 
 # Optional
 LOG_LEVEL=INFO
