@@ -120,6 +120,22 @@ Python 3.10+ is recommended.
 * Automatic cleanup of old messages after `RETENTION_DAYS`.
 
 ---
+## 📝 TODO
+
+- [x] Basic message capture and local SQLite storage  
+- [x] Digest generation via OpenAI Responses API  
+- [x] DM delivery of summaries (private to the requesting user)  
+- [x] Noise filtering (short "ok/emoji" messages ignored)  
+- [x] Automatic DB retention cleanup  
+- [x] Hierarchical summarization (map → reduce)  
+- [x] Support for two prompt languages (RU default, EN optional)
+- [ ] Add Dockerfile for containerized deployment  
+- [ ] Webhook mode (FastAPI/Flask) instead of polling  
+- [ ] Optional message encryption (SQLite with SQLCipher)  
+- [ ] Admin commands (/debug, /vacuum, /backup)
+- [ ] Configurable summary length (short/long)  
+- [ ] **Chunk-level caching** to avoid re-summarizing identical fragments and save tokens in LLM subscription
+
 
 ## 📜 License
 
